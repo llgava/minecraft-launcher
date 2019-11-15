@@ -34,8 +34,6 @@ const Container = styled.div`
     /* Error */
     ${props => props.design === 'error' && css`
         background-color: ${ColorsHEX.red}; /* #F43C2F */
-        background-position-x: 28px;
-        background-size: 8px;
         border: 2px solid ${ColorsHEX.black}; /* #000000 */
         box-shadow: inset 0px 0px 0px 4px ${ColorsHEX.dark_red}; /* #B73229 */
         

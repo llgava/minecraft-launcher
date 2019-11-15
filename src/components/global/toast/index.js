@@ -42,7 +42,7 @@ export default class Toast extends React.Component {
             extension = true;
 
         if(propsIcon === undefined || propsIcon <= 0 || propsIcon === true) {
-            extension = true;
+            console.log("Without icon property");
         } else {
             var bmp = propsIcon.startsWith("data:image/bmp") || propsIcon.endsWith("bmp"),
                 cur = propsIcon.endsWith("cur"),
@@ -142,9 +142,15 @@ export default class Toast extends React.Component {
    
     
     render() {
+        var stateSound = this.state.sound,
+            stateDesign = this.state.design,
+            stateIcon = this.state.icon,
+            stateText = this.state.text,
+            stateDescription = this.state.description;
+
         let ToastSound;
 
-        if(this.state.sound) {
+        if(stateSound) {
             ToastSound = <Sound url={ToastsSound} playStatus={Sound.status.PLAYING} autoLoad />
         } else {
             ToastSound = <></>
@@ -152,7 +158,7 @@ export default class Toast extends React.Component {
         
         return (
             <>
-                <Container  design={this.state.design} icon={this.state.icon} text={this.state.text} description={this.state.description} />
+                <Container  design={stateDesign} icon={stateIcon} text={stateText} description={stateDescription} />
                 {ToastSound}
             </>
         );

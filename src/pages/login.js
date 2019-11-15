@@ -2,7 +2,7 @@ import React from 'react';
 import GlobalStyle from '../assets/styles/globalStyle';
 
 // Elements (e.g. images)
-import Icon from '../assets/images/icons/lamp.svg';
+import Icon from '../assets/images/icons/yellow_exclamation.svg';
 
 // Components (e.g. all external components from this file, like a global menu)
 import Helmet from '../helmets/login';
