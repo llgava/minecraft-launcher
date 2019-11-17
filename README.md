@@ -40,6 +40,14 @@
 | icon        | Module  | false    |                 *                | null               | Defines component icon                   |
 | sound       | Boolean | false    |                 *                | true               | Enable component sound if declared       |
 
+### **~~ExternalLink~~** (not working yet)
+
+| Property  | Type    | Required | Values | Default      | Description                      |
+|-----------|---------|----------|--------|--------------|----------------------------------|
+| text      | String  | false    |    *   | Hello world! | Defines component text           |
+| bold      | Boolean | false    |    *   | true         | Enable bold in the text          |
+| underline | Boolean | false    |    *   | true         | Enable underline in the text     |
+
 ## Global components construction
 
 By default all global components are located in `src/components/global/`
