@@ -29,7 +29,7 @@ export default class Login extends React.Component {
             </form>
 
             <a href="/launcher"><CustomButton design="play" size="big" text="Log in" /></a>
-            <p>Don't have an account? <ExternalLink href="https://my.minecraft.net/store/minecraft/#register" target="_blank" >Sing up</ExternalLink></p>
+            <p>Don't have an account? <ExternalLink href="https://my.minecraft.net/store/minecraft/#register" target="_blank" >Sign up</ExternalLink></p>
          </Container>
       );
    }
