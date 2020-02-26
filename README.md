@@ -88,4 +88,4 @@ His website: <https://www.robotpantaloons.com/>
 
 ## Contact
 
-Leonardo Luiz Gava - [@FyatLindu](https://twitter.com/llgava "Leonardo Luiz Gava Twitter") - <llgavamt@gmail.com>
+Leonardo Luiz Gava - [@llgava](https://twitter.com/llgava "Leonardo Luiz Gava Twitter") - <llgavamt@gmail.com>
