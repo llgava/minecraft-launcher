@@ -1,5 +1,5 @@
 import React from 'react';
-import GlobalStyle from '../assets/styles/globalStyle';
+
 
 // Elements (e.g. images)
 import Icon from '../assets/images/icons/yellow_exclamation.svg';
@@ -14,7 +14,7 @@ const Login = () =>
         <Helmet />
         <Toast design="normal" icon={Icon} text="Developer tip" description="Log in button redirect you to launcher page" sound />
         <LoginBox />
-        <GlobalStyle />
+        
     </>
 
 export default Login;
